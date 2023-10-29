@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Win!</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: rgb(4, 150, 4);
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: rgb(4, 150, 4);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Congratulations! You Win!</h1>
+
+    <h3>You have successfully reordered the puzzle</h3>
+
+
+    <button onclick="startNewGame()">New Game</button>
+
+    <script>
+        function startNewGame() {
+
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+
+</html>
