@@ -1,6 +1,3 @@
-Certainly, here's a simple README template that you can use for your GitHub repository for the sliding puzzle game. You can customize it as needed:
-
-```markdown
 # Sliding Puzzle Game
 
 Welcome to the Sliding Puzzle Game repository! This is a classic sliding puzzle game implemented in JavaScript with additional features such as a timer and a "Try again" message.
